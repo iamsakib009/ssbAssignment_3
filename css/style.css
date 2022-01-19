@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #eee;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+.title {
+  letter-spacing: 0.5rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 200;
+  line-height: 3.5rem;
+  text-transform: uppercase;
+  border: 5px solid green;
+}
+
+.container {
+  padding: 2em 2em;
+  margin-inline: auto;
+  max-width: 80rem;
+  background-color: #fff;
+  margin-top: 0.5rem;
+  border: 5px solid black;
+}
+div {
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+table {
+  width: 750px;
+  border-collapse: collapse;
+  margin: 50px auto;
+}
+
+th {
+  background: #3498db;
+  color: white;
+  font-weight: bold;
+}
+
+td,
+th {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+  font-size: 18px;
+}
